@@ -1,0 +1,42 @@
+@font-face {
+  font-family: Inter;
+  src: url('./pages/fonts/Inter-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./pages/fonts/Inter-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./pages/fonts/Inter-SemiBold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./pages/fonts/Inter-Bold.otf');
+  font-weight: 700;
+}
+
+body, #root{
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  font-weight: 400;
+  display: flex;
+  background: #E1E1E1;
+  width: 100%;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}

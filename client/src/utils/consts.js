@@ -1,0 +1,5 @@
+export const MAIN_ROUTE = '/'
+export const AUTH_ROUTE = '/auth'
+export const PROFILE_ROUTE = '/profile'
+export const REQ_ROUTE = '/request'
+export const ONEREQ_ROUTE = '/onerequest'

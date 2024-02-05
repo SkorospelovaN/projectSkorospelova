@@ -1,0 +1,10 @@
+.send{
+    border-radius: 15px;
+    border: none;
+    background: #A42323;
+    width: fit-content;
+    padding: 17px 51px;
+    color: #FFF;
+    font-size: 32px;
+    margin-top: 54px;
+}

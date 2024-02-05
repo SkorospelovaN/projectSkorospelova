@@ -1,0 +1,32 @@
+.header{
+    width: fit-content;
+    background: #5A5A5A;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 23px 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+
+.header:hover{
+    cursor: pointer;
+}
+
+.header>p{
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+p#admin-p{
+    color: #CFFF46;
+    font-size: 24px;
+    font-weight: 700;
+}

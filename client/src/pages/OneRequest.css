@@ -1,0 +1,29 @@
+.one-req{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+    margin-top: 133px;
+}
+
+.one-req>img{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.one-req>div{
+    grid-column-start: 5;
+    grid-column-end: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 39px;
+}
+
+.one-req>div>p{
+    color: #5A5A5A;
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
